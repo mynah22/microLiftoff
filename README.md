@@ -1,3 +1,4 @@
-# microLiftoff
-Starting guides, proofs of concept, and examples for microcontrollers using CircuitPython
-[QT py esp32-s2](https://github.com/mynah22/microLiftoff/tree/main/qtpy-esp32s2/setup.md)
+## microLiftoff
+It can be a time consuming process to get started with a microcontroller from scratch. These are my personal notes on lifting off with microcontrollers and circuitpython. 
+
+[QT py esp32-s2](https://github.com/mynah22/microLiftoff/tree/main/qtpy-esp32s2/README.md)
