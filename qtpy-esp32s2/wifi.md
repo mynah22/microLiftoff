@@ -24,9 +24,12 @@ There are no special libraries needed to scan for and connect to wireless netowr
     radio.connect("your SSID here", "yourPassHere")
     print("Pinging 8.8.8.8:   "+str(radio.ping(pingtarget)*1000)+"ms")
     ```
+
 At this point the **adafruit requests** library is going to greatly simplify http requests
+
 Grab the whole bundle of adafruit libraries for your ciruitpython version at: circuitpython.org/libraries
-libraries are installed by placing them in the `lib` folder in your circuitpython drive
+
+libraries are installed by placing them in the `lib` folder in your circuitpython drive. The library is named `adafruit_requests/`
 
 - **Basic HTTP request**
     ```
