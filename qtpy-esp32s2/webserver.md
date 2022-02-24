@@ -20,4 +20,4 @@ This is a guide demonstrating how to set up a webserver on a computer/SBC that y
         ```
     - make sure the script is executable: `sudo chmod +x recordTemp.py`
     - and create the temperature file in the webserver root: `touch temp.txt` , and set permissions `chmod 666 temp.txt`
-    - now when a client submits a POST request to http://yourHostname.domain.xyz/recordTemp.py with a value in the `temperature` field it will be written to the `temp.txt` file on the server. Life is good!
+    - now when a client submits a POST request to http://yourHostname.domain.tld/cgi-bin/recordTemp.py with a value in the `temperature` field it will be written to the `temp.txt` file on the server. Life is good!
