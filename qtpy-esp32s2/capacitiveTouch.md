@@ -1,6 +1,6 @@
 **Implementing capacitive inputs is trivial**
 
-The QT Py boards come with several pins that can be used as capacitive sensors. On the ESP32-S2 QT Py these are **A2, A3, SDA,** and **SCL**.
+The QT Py boards come with several pins that can be used as capacitive sensors. On the ESP32-S2 QT Py these are **A2, A3, SDA, SCL** and **TX**.
 
 An example using A2 would look like:
 ```
