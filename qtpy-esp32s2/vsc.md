@@ -13,4 +13,4 @@ This guide is accurate as of february 2022:
 - once your device is flashed with the circuitpython firmware (see [Setup Guide](https://github.com/mynah22/microLiftoff/tree/main/qtpy-esp32s2/setup.md)), connect your microcontroller and hit the X symbol labeled 'pico disconnected' on the bottom of the VSC window. This will connect to your microcontroller and change the label to 'pico connected' with a check mark
 - `ctrl + d` within the 'pico console' terminal will cancel the main program if it is running, and allow access to the REPL. 
 - you can also hit 'run' via the play button symbol in the top right of the window. In my experience this works only when the file is saved
-- pasting code into the REPL is not a great experiance: the cli auto-indents, which means indents become duplicated when pasted. You will be happier saving a file and hitting run
+- pasting code into the REPL is not a great experience: the cli auto-indents, which means indents become duplicated when pasted. You will be happier saving a file and hitting run
