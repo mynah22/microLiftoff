@@ -3,6 +3,7 @@ This guide is accurate as of february 2022:
 1) ensure python 3 is installed on your machine
 2) download VSC from https://code.visualstudio.com/download and install
 3) open the extensions menu, either by clicking the blocks icon on the left of the VSC window, or `ctrl + shift + x`
+3) search for and install 'pico-go' - despite the name it works with any circuitpython microcontroller
 4) open your project folder with `file > open folder`
 5) to enable autocompletion, on the bottom bar of VSC window click "all commands", then in command palette select 'Pico Go > configure Project'
 6) recommended extensions will be presented on the left of the VSC window, install them all, then reload
