@@ -2,7 +2,7 @@
 
 This is a guide demonstrating how to set up a webserver on a computer/SBC that you can use to capture data from a microcontroller via HTTP
 
-- spinning up a cgi aware web server is literally a single line of python: `sudo python3 -m http.server --cgi 80`
+- spinning up a cgi aware web server is literally a single command: `sudo python3 -m http.server --cgi 80`
     - the directory you execute this command in will be the root of your webserver, so you may want to create a new folder and spin the server up there
 - consider the following example:
     - create a folder in the webserver root named `cgi-bin` (this is the default location for serverside scripts) 
